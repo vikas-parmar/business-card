@@ -1,0 +1,69 @@
+.header--profile {
+  position: relative;
+  height: 317px;
+  width: 317px;
+  left: 116px;
+  top: 44px;
+  border: 1px solid #000000;
+  border-radius: 10px 10px 0px 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+a{
+  font-family: "Inter";
+  text-decoration:none;
+  color: #F5F5F5;
+}
+a:hover{
+  text-decoration:none;
+  color: #dad8d8;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: 32px;
+  margin: 30px auto 30px auto;
+  font-size: large;
+  height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3{
+  font-family: 'Inter';
+  margin: 10px auto 10px auto;
+  padding: 3px;
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  color: #F3BF99;
+}
+.web--intro{
+  font-size: 10.24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin:  auto;
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.socials{
+  width: 25px;
+  height: 25px;
+}
+.socials:hover{
+  box-shadow: 0px 0px 10px #5093E2;
+}
