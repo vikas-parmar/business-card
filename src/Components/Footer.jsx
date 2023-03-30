@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import img1 from '../Assets/Twitter.png'
 import img2 from '../Assets/Instagram.png'
 import img3 from '../Assets/Facebook.png'

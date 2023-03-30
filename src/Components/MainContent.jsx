@@ -32,7 +32,7 @@ export default function MainContent() {
                 practices, and am always looking for new things to learn.</p>
             <h2 className="heading">Interests</h2>
             <p className="para">Reading books. Travel geek. Food expert. Music scholar. Internet fanatic.
-                 Entrepreneur.  Pop culture ninja. Coffee fanatic.</p>
+                Entrepreneur.  Pop culture ninja. Coffee fanatic.</p>
         </section>
     )
 }
