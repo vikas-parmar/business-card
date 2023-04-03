@@ -1,5 +1,5 @@
-# Card-Portfolio
-:pushpin: Simple Portfolio Card created With React library using Vite tool.
+# Business Card Portfolio
+:pushpin: Simple Business Card created With React library using Vite tool.
 
 > Visit : https://portfolio-card-demo.vercel.app/ 
 
