@@ -6,7 +6,7 @@
 
 ## Links
 - GitHub: [Business Card](https://github.com/vikas-parmar/business-card/)
-- Live Site: [Business Card](https://portfolio-card-demo.vercel.app/)
+- Live Site: [Business Card](https://business-card-vikas-parmar.vercel.app/)
 
 ## Technologies Used
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
