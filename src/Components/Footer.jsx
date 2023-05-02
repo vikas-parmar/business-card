@@ -1,24 +1,31 @@
-import React from 'react'
-import img1 from '../Assets/Twitter.png'
-import img2 from '../Assets/Instagram.png'
-import img3 from '../Assets/Facebook.png'
-import githubLogo from '../Assets/githubLogo.svg'
+import React from 'react';
+import { Link, Stack } from '@mui/material';
+import LogoDevIcon from '@mui/icons-material/LogoDev';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 const Footer = () => {
     return (
-        <footer>
-            <a href="https://twitter.com/viksa7111">
-                <img src={img1} alt="Twitter" className="socials" />
-            </a>
-            <a href="https://instagram.com/vicky_panwar__?igshid=YmMyMTA2M2Y=">
-                <img src={img2} alt="Instagram" className="socials" />
-            </a>
-            <a href="https://www.facebook.com/viksaa7111/">
-                <img src={img3} alt="Facebook" className="socials" />
-            </a>
-            <a href="https://github.com/viksa7111/">
-                <img src={githubLogo} alt="Facebook" className="socials" />
-            </a>
-        </footer>
+        <Stack width={"320px"} component={'footer'} spacing={2} direction={'row'} justifyContent={'center'} sx={{backgroundColor: "#262626", borderRadius: "0 0 10px 10px"}} paddingTop={1} marginBottom={4}>
+
+            <Link href="https://www.facebook.com/viksa7111/" underline="none">
+                <FacebookIcon fontSize='large' />
+            </Link>
+
+            <Link href="https://www.instagram.com/vp.vikasparmar" underline="none">
+                <InstagramIcon fontSize='large' />
+            </Link>
+
+            <Link href="https://twitter.com/viksa7111" underline="none">
+                <TwitterIcon fontSize='large' />
+            </Link>
+
+            <Link href="https://twitter.com/viksa7111" underline="none">
+                <LogoDevIcon fontSize='large' />
+            </Link>
+
+        </Stack>
     )
 }
 
