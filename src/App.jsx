@@ -5,17 +5,19 @@ import Footer from './Components/Footer';
 import github from './Assets/githubLogo.svg'
 
 const bodyStyle = {
+  minHeight: "100vh",
   display: "flex",
   backgroundColor: "secondary.main",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
 };
-const logoStyle = { position: "fixed", right: "10px", top: "10px" }
+
+const logoStyle = { position: "fixed", right: "2vw", top: "88vh" }
 
 const App = () => {
   return (
-    <Container maxWidth="xl" sx={bodyStyle} >
+    <Container minWidth="xl" sx={bodyStyle} >
       <Header />
       <MainContent />
       <Footer />
