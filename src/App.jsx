@@ -6,7 +6,7 @@ import github from './Assets/githubLogo.svg'
 
 const bodyStyle = {
   minHeight: "100vh",
-  maxWidth="100%",
+  maxWidth: "100%",
   display: "flex",
   backgroundColor: "secondary.main",
   flexDirection: "column",
