@@ -13,7 +13,7 @@ const Footer = () => {
                 <FacebookIcon fontSize='large' />
             </Link>
 
-            <Link href="https://www.instagram.com/vp.vikasparmar" underline="none">
+            <Link href="https://www.instagram.com/vikasparmar___" underline="none">
                 <InstagramIcon fontSize='large' />
             </Link>
 
