@@ -21,6 +21,10 @@
 * Package Manager :  npm
 * Used Tool       :  Vite
 * Deployed On     :  Vercel
+* For Styling I used `Material UI`. I used it to sharp my commands on this library. 
+
+> Greetinngs Fello Developers!<br />
+> If you are going to make this project I suggest to use Tailwind Css or Pure Css to avoid heavy loads on application. 
 
 ### Install
 ```
