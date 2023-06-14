@@ -17,7 +17,7 @@ const logoStyle = { position: "fixed", right: "2%", top: "90%" }
 
 const App = () => {
   return (
-    <Container maxWidth="xl" sx={bodyStyle} >
+    <Container maxWidth={false} sx={bodyStyle} >
       <Header />
       <MainContent />
       <Footer />
